@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6AD3891FBA8D2F00BC2CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AD3881FBA8D2F00BC2CC9 /* AppDelegate.swift */; };
+		0A6AD38B1FBA8D2F00BC2CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AD38A1FBA8D2F00BC2CC9 /* ViewController.swift */; };
+		0A6AD38E1FBA8D2F00BC2CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6AD38C1FBA8D2F00BC2CC9 /* Main.storyboard */; };
+		0A6AD3901FBA8D2F00BC2CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6AD38F1FBA8D2F00BC2CC9 /* Assets.xcassets */; };
+		0A6AD3931FBA8D2F00BC2CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A6AD3911FBA8D2F00BC2CC9 /* LaunchScreen.storyboard */; };
+		0A6AD39E1FBA8D2F00BC2CC9 /* FBAUTHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AD39D1FBA8D2F00BC2CC9 /* FBAUTHTests.swift */; };
+		0A6AD3A91FBA8D2F00BC2CC9 /* FBAUTHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6AD3A81FBA8D2F00BC2CC9 /* FBAUTHUITests.swift */; };
+		0A6AD3B71FBA8EA500BC2CC9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A6AD3B61FBA8EA400BC2CC9 /* GoogleService-Info.plist */; };
+		0AD5D9D81FBAD53500A7BFFD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD5D9D71FBAD53500A7BFFD /* MainViewController.swift */; };
+		A6782130F39E6FCB16CA5206 /* Pods_FBAUTHUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4996EAAF9A22967E9274EC8E /* Pods_FBAUTHUITests.framework */; };
+		CA93BBE95D7B3B5879044C80 /* Pods_FBAUTHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9626FEAC66A6AE6CA65485A /* Pods_FBAUTHTests.framework */; };
+		D588F0D22841C08299B18810 /* Pods_FBAUTH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0267C23491DB1266E278F325 /* Pods_FBAUTH.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A6AD39A1FBA8D2F00BC2CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6AD37D1FBA8D2F00BC2CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6AD3841FBA8D2F00BC2CC9;
+			remoteInfo = FBAUTH;
+		};
+		0A6AD3A51FBA8D2F00BC2CC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6AD37D1FBA8D2F00BC2CC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6AD3841FBA8D2F00BC2CC9;
+			remoteInfo = FBAUTH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0267C23491DB1266E278F325 /* Pods_FBAUTH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBAUTH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6AD3851FBA8D2F00BC2CC9 /* FBAUTH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBAUTH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6AD3881FBA8D2F00BC2CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A6AD38A1FBA8D2F00BC2CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A6AD38D1FBA8D2F00BC2CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A6AD38F1FBA8D2F00BC2CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6AD3921FBA8D2F00BC2CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A6AD3941FBA8D2F00BC2CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6AD3991FBA8D2F00BC2CC9 /* FBAUTHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAUTHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6AD39D1FBA8D2F00BC2CC9 /* FBAUTHTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAUTHTests.swift; sourceTree = "<group>"; };
+		0A6AD39F1FBA8D2F00BC2CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6AD3A41FBA8D2F00BC2CC9 /* FBAUTHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBAUTHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6AD3A81FBA8D2F00BC2CC9 /* FBAUTHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBAUTHUITests.swift; sourceTree = "<group>"; };
+		0A6AD3AA1FBA8D2F00BC2CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6AD3B61FBA8EA400BC2CC9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0AD5D9D71FBAD53500A7BFFD /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		18A7EFAEBAFD95A94BDDF277 /* Pods-FBAUTHUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAUTHUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBAUTHUITests/Pods-FBAUTHUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4996EAAF9A22967E9274EC8E /* Pods_FBAUTHUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBAUTHUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		543531D79E00B409F4861D81 /* Pods-FBAUTH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAUTH.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBAUTH/Pods-FBAUTH.release.xcconfig"; sourceTree = "<group>"; };
+		565C9B932B67A85227B8D60B /* Pods-FBAUTHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAUTHTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBAUTHTests/Pods-FBAUTHTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C79AC31C5E4359CFC4F8716 /* Pods-FBAUTHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAUTHTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBAUTHTests/Pods-FBAUTHTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD94934C25D08A5BA8AFC42A /* Pods-FBAUTHUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAUTHUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FBAUTHUITests/Pods-FBAUTHUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DCE9CA2C741050C60D284F39 /* Pods-FBAUTH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBAUTH.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FBAUTH/Pods-FBAUTH.debug.xcconfig"; sourceTree = "<group>"; };
+		E9626FEAC66A6AE6CA65485A /* Pods_FBAUTHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBAUTHTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6AD3821FBA8D2F00BC2CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D588F0D22841C08299B18810 /* Pods_FBAUTH.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6AD3961FBA8D2F00BC2CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA93BBE95D7B3B5879044C80 /* Pods_FBAUTHTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6AD3A11FBA8D2F00BC2CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6782130F39E6FCB16CA5206 /* Pods_FBAUTHUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6AD37C1FBA8D2F00BC2CC9 = {
+			isa = PBXGroup;
+			children = (
+				0A6AD3871FBA8D2F00BC2CC9 /* FBAUTH */,
+				0A6AD39C1FBA8D2F00BC2CC9 /* FBAUTHTests */,
+				0A6AD3A71FBA8D2F00BC2CC9 /* FBAUTHUITests */,
+				0A6AD3861FBA8D2F00BC2CC9 /* Products */,
+				9D9544E8C7CA5B3CC7B9CB46 /* Pods */,
+				37418B06D1C8331AF4F063F6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6AD3861FBA8D2F00BC2CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6AD3851FBA8D2F00BC2CC9 /* FBAUTH.app */,
+				0A6AD3991FBA8D2F00BC2CC9 /* FBAUTHTests.xctest */,
+				0A6AD3A41FBA8D2F00BC2CC9 /* FBAUTHUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6AD3871FBA8D2F00BC2CC9 /* FBAUTH */ = {
+			isa = PBXGroup;
+			children = (
+				0A6AD3881FBA8D2F00BC2CC9 /* AppDelegate.swift */,
+				0A6AD38A1FBA8D2F00BC2CC9 /* ViewController.swift */,
+				0A6AD38C1FBA8D2F00BC2CC9 /* Main.storyboard */,
+				0A6AD38F1FBA8D2F00BC2CC9 /* Assets.xcassets */,
+				0A6AD3911FBA8D2F00BC2CC9 /* LaunchScreen.storyboard */,
+				0A6AD3941FBA8D2F00BC2CC9 /* Info.plist */,
+				0A6AD3B61FBA8EA400BC2CC9 /* GoogleService-Info.plist */,
+				0AD5D9D71FBAD53500A7BFFD /* MainViewController.swift */,
+			);
+			path = FBAUTH;
+			sourceTree = "<group>";
+		};
+		0A6AD39C1FBA8D2F00BC2CC9 /* FBAUTHTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6AD39D1FBA8D2F00BC2CC9 /* FBAUTHTests.swift */,
+				0A6AD39F1FBA8D2F00BC2CC9 /* Info.plist */,
+			);
+			path = FBAUTHTests;
+			sourceTree = "<group>";
+		};
+		0A6AD3A71FBA8D2F00BC2CC9 /* FBAUTHUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6AD3A81FBA8D2F00BC2CC9 /* FBAUTHUITests.swift */,
+				0A6AD3AA1FBA8D2F00BC2CC9 /* Info.plist */,
+			);
+			path = FBAUTHUITests;
+			sourceTree = "<group>";
+		};
+		37418B06D1C8331AF4F063F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0267C23491DB1266E278F325 /* Pods_FBAUTH.framework */,
+				E9626FEAC66A6AE6CA65485A /* Pods_FBAUTHTests.framework */,
+				4996EAAF9A22967E9274EC8E /* Pods_FBAUTHUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D9544E8C7CA5B3CC7B9CB46 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCE9CA2C741050C60D284F39 /* Pods-FBAUTH.debug.xcconfig */,
+				543531D79E00B409F4861D81 /* Pods-FBAUTH.release.xcconfig */,
+				8C79AC31C5E4359CFC4F8716 /* Pods-FBAUTHTests.debug.xcconfig */,
+				565C9B932B67A85227B8D60B /* Pods-FBAUTHTests.release.xcconfig */,
+				18A7EFAEBAFD95A94BDDF277 /* Pods-FBAUTHUITests.debug.xcconfig */,
+				CD94934C25D08A5BA8AFC42A /* Pods-FBAUTHUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6AD3841FBA8D2F00BC2CC9 /* FBAUTH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6AD3AD1FBA8D2F00BC2CC9 /* Build configuration list for PBXNativeTarget "FBAUTH" */;
+			buildPhases = (
+				C026D8150A62D53920E14170 /* [CP] Check Pods Manifest.lock */,
+				0A6AD3811FBA8D2F00BC2CC9 /* Sources */,
+				0A6AD3821FBA8D2F00BC2CC9 /* Frameworks */,
+				0A6AD3831FBA8D2F00BC2CC9 /* Resources */,
+				A1954633C1C7A4F5DFD08263 /* [CP] Embed Pods Frameworks */,
+				75BFBD4F78B827686C3813C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBAUTH;
+			productName = FBAUTH;
+			productReference = 0A6AD3851FBA8D2F00BC2CC9 /* FBAUTH.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A6AD3981FBA8D2F00BC2CC9 /* FBAUTHTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6AD3B01FBA8D2F00BC2CC9 /* Build configuration list for PBXNativeTarget "FBAUTHTests" */;
+			buildPhases = (
+				2E24FDC698FFE45EB811863C /* [CP] Check Pods Manifest.lock */,
+				0A6AD3951FBA8D2F00BC2CC9 /* Sources */,
+				0A6AD3961FBA8D2F00BC2CC9 /* Frameworks */,
+				0A6AD3971FBA8D2F00BC2CC9 /* Resources */,
+				E5AE88A570F1F2E42CCFA13F /* [CP] Embed Pods Frameworks */,
+				A650E04C3780093FC7BBE194 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6AD39B1FBA8D2F00BC2CC9 /* PBXTargetDependency */,
+			);
+			name = FBAUTHTests;
+			productName = FBAUTHTests;
+			productReference = 0A6AD3991FBA8D2F00BC2CC9 /* FBAUTHTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A6AD3A31FBA8D2F00BC2CC9 /* FBAUTHUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6AD3B31FBA8D2F00BC2CC9 /* Build configuration list for PBXNativeTarget "FBAUTHUITests" */;
+			buildPhases = (
+				FE89AF3AF16F451ABDAC4ECC /* [CP] Check Pods Manifest.lock */,
+				0A6AD3A01FBA8D2F00BC2CC9 /* Sources */,
+				0A6AD3A11FBA8D2F00BC2CC9 /* Frameworks */,
+				0A6AD3A21FBA8D2F00BC2CC9 /* Resources */,
+				29E1F99DCC91C926F7930E2E /* [CP] Embed Pods Frameworks */,
+				440B1B2E334CB5D2C81784B5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6AD3A61FBA8D2F00BC2CC9 /* PBXTargetDependency */,
+			);
+			name = FBAUTHUITests;
+			productName = FBAUTHUITests;
+			productReference = 0A6AD3A41FBA8D2F00BC2CC9 /* FBAUTHUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6AD37D1FBA8D2F00BC2CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Yoga Pratama";
+				TargetAttributes = {
+					0A6AD3841FBA8D2F00BC2CC9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					0A6AD3981FBA8D2F00BC2CC9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A6AD3841FBA8D2F00BC2CC9;
+					};
+					0A6AD3A31FBA8D2F00BC2CC9 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0A6AD3841FBA8D2F00BC2CC9;
+					};
+				};
+			};
+			buildConfigurationList = 0A6AD3801FBA8D2F00BC2CC9 /* Build configuration list for PBXProject "FBAUTH" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6AD37C1FBA8D2F00BC2CC9;
+			productRefGroup = 0A6AD3861FBA8D2F00BC2CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6AD3841FBA8D2F00BC2CC9 /* FBAUTH */,
+				0A6AD3981FBA8D2F00BC2CC9 /* FBAUTHTests */,
+				0A6AD3A31FBA8D2F00BC2CC9 /* FBAUTHUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6AD3831FBA8D2F00BC2CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6AD3931FBA8D2F00BC2CC9 /* LaunchScreen.storyboard in Resources */,
+				0A6AD3B71FBA8EA500BC2CC9 /* GoogleService-Info.plist in Resources */,
+				0A6AD3901FBA8D2F00BC2CC9 /* Assets.xcassets in Resources */,
+				0A6AD38E1FBA8D2F00BC2CC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6AD3971FBA8D2F00BC2CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6AD3A21FBA8D2F00BC2CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E1F99DCC91C926F7930E2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTHUITests/Pods-FBAUTHUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E24FDC698FFE45EB811863C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBAUTHTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		440B1B2E334CB5D2C81784B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTHUITests/Pods-FBAUTHUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75BFBD4F78B827686C3813C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTH/Pods-FBAUTH-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1954633C1C7A4F5DFD08263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTH/Pods-FBAUTH-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTH/Pods-FBAUTH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A650E04C3780093FC7BBE194 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTHTests/Pods-FBAUTHTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C026D8150A62D53920E14170 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBAUTH-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5AE88A570F1F2E42CCFA13F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FBAUTHTests/Pods-FBAUTHTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE89AF3AF16F451ABDAC4ECC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBAUTHUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6AD3811FBA8D2F00BC2CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD5D9D81FBAD53500A7BFFD /* MainViewController.swift in Sources */,
+				0A6AD38B1FBA8D2F00BC2CC9 /* ViewController.swift in Sources */,
+				0A6AD3891FBA8D2F00BC2CC9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6AD3951FBA8D2F00BC2CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6AD39E1FBA8D2F00BC2CC9 /* FBAUTHTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6AD3A01FBA8D2F00BC2CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6AD3A91FBA8D2F00BC2CC9 /* FBAUTHUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6AD39B1FBA8D2F00BC2CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6AD3841FBA8D2F00BC2CC9 /* FBAUTH */;
+			targetProxy = 0A6AD39A1FBA8D2F00BC2CC9 /* PBXContainerItemProxy */;
+		};
+		0A6AD3A61FBA8D2F00BC2CC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6AD3841FBA8D2F00BC2CC9 /* FBAUTH */;
+			targetProxy = 0A6AD3A51FBA8D2F00BC2CC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A6AD38C1FBA8D2F00BC2CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6AD38D1FBA8D2F00BC2CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A6AD3911FBA8D2F00BC2CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A6AD3921FBA8D2F00BC2CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A6AD3AB1FBA8D2F00BC2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A6AD3AC1FBA8D2F00BC2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6AD3AE1FBA8D2F00BC2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCE9CA2C741050C60D284F39 /* Pods-FBAUTH.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526TAB4A9X;
+				INFOPLIST_FILE = FBAUTH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YP-PROD.FBAUTH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A6AD3AF1FBA8D2F00BC2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543531D79E00B409F4861D81 /* Pods-FBAUTH.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526TAB4A9X;
+				INFOPLIST_FILE = FBAUTH/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YP-PROD.FBAUTH";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A6AD3B11FBA8D2F00BC2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C79AC31C5E4359CFC4F8716 /* Pods-FBAUTHTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526TAB4A9X;
+				INFOPLIST_FILE = FBAUTHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YP-PROD.FBAUTHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBAUTH.app/FBAUTH";
+			};
+			name = Debug;
+		};
+		0A6AD3B21FBA8D2F00BC2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 565C9B932B67A85227B8D60B /* Pods-FBAUTHTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526TAB4A9X;
+				INFOPLIST_FILE = FBAUTHTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YP-PROD.FBAUTHTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBAUTH.app/FBAUTH";
+			};
+			name = Release;
+		};
+		0A6AD3B41FBA8D2F00BC2CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18A7EFAEBAFD95A94BDDF277 /* Pods-FBAUTHUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526TAB4A9X;
+				INFOPLIST_FILE = FBAUTHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YP-PROD.FBAUTHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBAUTH;
+			};
+			name = Debug;
+		};
+		0A6AD3B51FBA8D2F00BC2CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD94934C25D08A5BA8AFC42A /* Pods-FBAUTHUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 526TAB4A9X;
+				INFOPLIST_FILE = FBAUTHUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "YP-PROD.FBAUTHUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FBAUTH;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6AD3801FBA8D2F00BC2CC9 /* Build configuration list for PBXProject "FBAUTH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6AD3AB1FBA8D2F00BC2CC9 /* Debug */,
+				0A6AD3AC1FBA8D2F00BC2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6AD3AD1FBA8D2F00BC2CC9 /* Build configuration list for PBXNativeTarget "FBAUTH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6AD3AE1FBA8D2F00BC2CC9 /* Debug */,
+				0A6AD3AF1FBA8D2F00BC2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6AD3B01FBA8D2F00BC2CC9 /* Build configuration list for PBXNativeTarget "FBAUTHTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6AD3B11FBA8D2F00BC2CC9 /* Debug */,
+				0A6AD3B21FBA8D2F00BC2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6AD3B31FBA8D2F00BC2CC9 /* Build configuration list for PBXNativeTarget "FBAUTHUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6AD3B41FBA8D2F00BC2CC9 /* Debug */,
+				0A6AD3B51FBA8D2F00BC2CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6AD37D1FBA8D2F00BC2CC9 /* Project object */;
+}
